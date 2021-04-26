@@ -28,7 +28,7 @@ X = df.iloc[:,1:].values
 XX = []
 for xseq in X:
    tmp = np.asarray(xseq).reshape(28,28)
-   tmp.astype("int")/255.0
+   tmp.astype("int")
    XX.append(tmp.astype('int64'))
 
 Y = to_categorical(Y, dtype='int64')
