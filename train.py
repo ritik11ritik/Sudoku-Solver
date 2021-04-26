@@ -20,7 +20,7 @@ from keras.optimizers import Adam
 
 warnings.filterwarnings('ignore')
 
-df = pd.read_csv('train2(shuffled).csv')
+df = pd.read_csv('train.csv')
 
 Y = df.iloc[:,0].values
 X = df.iloc[:,1:].values
