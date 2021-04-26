@@ -11,7 +11,7 @@ The model for digit recognition is trained using the dataset.zip file. First it 
 Since the MNIST dataset contains hand written digits and in this project, there is a need to predict printed digits, the MNIST dataset doesn't give sufficient accuracy. If there is even a single wrong prediction, whole board may be affected. Hence, the model is trained on printed digits dataset.
 
 ## Run
-There are two ways to run the sudoku solver - 
+There are two ways to run the sudoku solver
 1. Solve via input image
 2. Solve via camera
 
@@ -24,4 +24,12 @@ To run the solver via camera, execute the following command
 python solveCamera.py
 ```
 The solver will detect the puzzle and write the solved digits in their corresponding cells.
+
+## Results
+The program was tested on several sudoku puzzles. One example is shown below
+### Puzzle
+<img src="https://github.com/ritik11ritik/Sudoku-Solver/blob/main/Sudoku.jpg" width="400">
+
+### Solved Puzzle
+<img src="https://github.com/ritik11ritik/Sudoku-Solver/blob/main/Sudoku_Solved.jpg" width="400">
 
